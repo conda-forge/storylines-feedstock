@@ -1,13 +1,13 @@
 {% set name = "storylines" %}
-{% set version = "0.16" %}
+{% set version = "0.17" %}
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 85d12df3f3e35cf69940b649a4c877b958844563e7210bcd9aa8f90242595adc
+  sha256: c4d28c9e66dbfb20d8623823aaffeebe1ffad21d77b9b6d8e3cb7d837edd4a0c
 
 build:
   noarch: python
