@@ -1,5 +1,5 @@
 {% set name = "storylines" %}
-{% set version = "0.17" %}
+{% set version = "0.18" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c4d28c9e66dbfb20d8623823aaffeebe1ffad21d77b9b6d8e3cb7d837edd4a0c
+  sha256: 8fc24d9581ad572614b1c8ee1aebdda49e64b2c210f4c1db8aedb6bc75b231a1
 
 build:
   noarch: python
